@@ -52,7 +52,7 @@
 	
 	logView.text = [logView.text stringByAppendingFormat: @"\n%@", formatString];
 	[logView scrollRangeToVisible: NSMakeRange(logView.text.length - 1, 1)];
-	NSLog(@"%@", formatString);
+	//NSLog(@"%@", formatString);
 }
 
 -(void)sendMessage: (NSString*)msg toUser: (XMPPUser*)user{
